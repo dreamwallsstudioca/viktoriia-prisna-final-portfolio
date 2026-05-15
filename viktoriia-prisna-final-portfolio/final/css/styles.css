@@ -557,6 +557,27 @@ legend {
 .project-body .btn-ghost {
   margin-top: 1.5rem;
 }
+.hero-mobile-photo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-mobile-photo .portrait-card {
+  max-width: 360px;
+  margin-inline: auto;
+  transform: none;
+}
+
+@media (max-width: 767.98px) {
+  .hero-mobile-photo {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-mobile-photo .portrait-card {
+    max-width: 340px;
+  }
+}
 /* Responsive design */
 @media (max-width: 991.98px) {
   .hero-section {
